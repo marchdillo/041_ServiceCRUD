@@ -48,7 +48,7 @@ app.post('/biodata', (req, res) => {
 // PUT (Update Data)
 app.put('/biodata/:id', (req, res) => {
     const { id } = req.params;
-  
+    const { nama, nim, kelas } = req.body;
 
   
 
